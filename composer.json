@@ -1,0 +1,22 @@
+{
+  "name": "ionut/quickweb",
+  "license": "proprietary",
+  "description": "Quickweb Project",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Quickweb\\Library\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-mysqli": "*",
+    "ext-json": "*"
+  },
+  "config": {
+    "vendor-dir": "vendor",
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
